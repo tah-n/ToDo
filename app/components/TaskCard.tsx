@@ -46,7 +46,7 @@ const getRandomColor = () => {
     "assets/little tree/shy.gif",
     "assets/little tree/sleep (2).gif",
     "assets/little tree/frustrated.gif",
-    "assets/little tree/depressed.gif",
+    "assets/little tree/dead.gif",
     "assets/little tree/dead (2).gif",
   ]
 

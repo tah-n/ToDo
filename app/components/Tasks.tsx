@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react'
 import useProps from './lib/useProps';
 import TaskContainer from './TaskContainer';
 import TopMenu from './TopMenu';
+import gsap from 'gsap';
 
 interface TaskCardProps {
   title: string;
@@ -45,13 +46,12 @@ const Tasks = () => {
   }
  },[])
 
-
  
  
   return (
     <div className='absolute top-0 left-[70px] sm:left-[100px] w-[100%] h-full'>
       <TopMenu />
-      {upcoming && chosenMenuItem === 'upcomming tasks'&& <TaskContainer cardClassName='' className='' array={upcoming} />}
+      {upcoming && chosenMenuItem === 'upcomming tasks'&& <TaskContainer cardClassName='card -translate-y-10' className='' array={upcoming} />}
       {chosenMenuItem === 'completed tasks'&& <TaskContainer cardClassName='!pointer-events-none !opacity-80' treeIconClass='opacity-0' array={completedTasks} />}
       {chosenMenuItem === 'missed tasks'&& <TaskContainer cardClassName='!pointer-events-none !opacity-80' treeIconClass='opacity-0' array={missedTasks} />}
     </div>

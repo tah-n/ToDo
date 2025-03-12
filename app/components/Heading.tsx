@@ -81,7 +81,7 @@ const Heading = () => {
   },[])
 
   return (
-    <section className='relative w-full h-full flex items-center justify-center overflow-hidden'>
+    <section className='relative w-screen h-[100vh] flex items-center justify-center overflow-y-auto '>
         <Background />
         <Line />
 
