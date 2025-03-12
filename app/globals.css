@@ -66,6 +66,7 @@
 body {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 .sigmar-regular {

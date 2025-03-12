@@ -130,12 +130,12 @@ const AddNewTask = () => {
         {/* time */}
       <div className='w-full mt-7 flex gap-2 h-[40px] my-4'>
         {/* calendar */}
-        <div className='bg-teal/10 cursor-pointer rounded-lg min-w-[130px] w-fit px-1 hover:bg-teal/30 active:bg-teal/60 flex items-center gap-4 justify-center capitalize text-center h-full'>
+        <div className='bg-teal/10 cursor-pointer rounded-lg min-w-[130px] w-fit px-2 sm:px-1 hover:bg-teal/30 active:bg-teal/60 flex items-center gap-4 justify-center capitalize text-center h-full'>
             <DatePicker />
         </div>
         {/* time */}
-        <div className='relative bg-teal/10 cursor-pointer rounded-lg min-w-[140px] w-fit flex items-center gap-4 justify-center hover:bg-teal/30 active:bg-teal/60  capitalize text-center h-full'>
-               <input value={taskTime} onChange={(e) => handleSetTime(e)} type='time' color='#719191' className='outline-none opacity-70 focus:opacity-80 appearance-none rounded-sm focus:outline-none ' />
+        <div className='relative bg-teal/10 cursor-pointer rounded-lg w-fit px-4 flex items-center gap-4 justify-center hover:bg-teal/30 active:bg-teal/60  capitalize text-center h-full'>
+               <input value={taskTime} onChange={(e) => handleSetTime(e)} type='time' color='#719191' className='outline-none opacity-70 focus:opacity-80 rounded-sm focus:outline-none w-fit' />
         </div>
       </div>
 

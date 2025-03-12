@@ -25,7 +25,7 @@ export function DatePicker() {
         <Button
           variant={"outline"}
           className={cn(
-            "w-full h-full justify-center gap-4 !bg-white/0 !border-none text-left font-normal",
+            "w-full h-full justify-center gap-2 sm:gap-4 !bg-white/0 !border-none text-left font-normal",
             !taskDate && "text-muted-foreground"
           )}
         >
