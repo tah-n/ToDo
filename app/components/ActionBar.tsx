@@ -18,7 +18,7 @@ const ActionBar = () => {
     <div className='relative z-10 w-[70px] sm:w-[100px] h-full flex flex-col items-center border-[2px] bg-teal/80 backdrop-blur-md sm:rounded-tl-[2.3rem] sm:rounded-bl-[2.3rem] border-teal/50  shadow-2xl'>
       {/* add action buttons */}
       <div className='relative mt-20 z-20 group w-min h-fit'>
-        <AddButton click={handleDisplay} className='m-auto' />
+        <AddButton click={handleDisplay} className='m-auto ' />
         <Tooltip className='-translate-y-10'>
             Add New Task
         </Tooltip>   
