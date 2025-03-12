@@ -122,7 +122,7 @@ export function TaskCard({ title, date, time, alarm,cardClassName,isCompleted,id
             <h3 className="font-semibold capitalize text-[16px] w-[85%]">{title}</h3>
           </div>
           <DropdownMenu>
-            <DropdownMenuTrigger className="opacity-0 mb-8 group-hover:opacity-100">
+            <DropdownMenuTrigger className="opacity-100 sm:opacity-0 mb-8 group-hover:opacity-100">
               <MoreVertical color="#243036" className="h-5 w-5 text-muted-foreground" />
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="bg-white/90">

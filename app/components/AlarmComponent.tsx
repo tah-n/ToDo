@@ -17,7 +17,7 @@ const AlarmComponent = ({title,alarm, className}: AlarmProps) => {
         useProps.getState().setAlarmMin('');
     }
   return (
-    <div className={`${className} absolute group sm:bottom-0 bg-[#A0DB9C]/50 backdrop-blur-2xl sm:right-0 m-5 flex flex-col items-center justify-center w-[350px] rounded-4xl shadow-md p-4 z-40`}>
+    <div className={`${className} absolute group sm:bottom-0 bg-[#A0DB9C]/50 backdrop-blur-2xl sm:right-0 m-5 flex flex-col items-center justify-center w-[320px] rounded-4xl shadow-md p-4 z-40`}>
         <div className='relative w-full flex items-center justify-center'>
             <img src='assets/little tree/happy (2).gif' width={200} height={200} className='w-[100px] sm:w-[120px]' />
             <div onClick={handleClick} className='absolute right-0 top-1 rounded-xl group-hover:opacity-100 sm:opacity-0 bg-2 duration-300'>
